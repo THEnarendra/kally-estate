@@ -23,8 +23,7 @@ const Header = () => {
   const sliderImages = Object.values(home_slider);
 
   return (
-      <Row className="align-items-center header-container">
-        {/* Left Text Section */}
+      <Row className="header-container">
         <Col lg={6} md={6} sm={12} className="text-container">
           <h1 className="header-title">Find Your Dream Property</h1>
           <h2 className="dynamic-text">

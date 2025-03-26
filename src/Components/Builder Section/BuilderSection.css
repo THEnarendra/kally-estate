@@ -84,19 +84,22 @@
 }
 
 @media (max-width: 768px) {
+  .text-content{
+    padding: 20px 10px;
+  }
   .builderSection-heading h1{
-    font-size: 2.2rem;
+    font-size: 2rem;
+    margin-bottom: 5px;
     font-weight: bold;
   }
   .builderSection-heading p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #676767;
     margin-top: -10px;
     margin-bottom: -10px;
   }
 
   .gradient-container {
-    /* width: 95vw; */
     flex-direction: column;
     padding: 5%;
   }
@@ -105,8 +108,8 @@
     padding: 10px;
     max-height: 30vh;
   }
-  .builder-name {
-    font-size: 1.5rem;
+  .property-name {
+    font-size: 1.4rem;
   }
 
   .property-description,

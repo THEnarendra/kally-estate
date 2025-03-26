@@ -23,21 +23,6 @@ const BuilderSection = ({ propertyType }) => {
     setSelectedProperty(null);
   };
 
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   autoplaySpeed: 4000,
-  //   pauseOnHover: true,
-  //   arrows: true,
-  // };
-
-  // Filter spotlight properties dynamically based on the propertyType prop
-  
-
   
   const spotlightProperties =
     propertyType === "Villas"
@@ -72,7 +57,7 @@ const BuilderSection = ({ propertyType }) => {
             <Container className="gradient-container">
               <Row className="align-items-center">
                 {/* Text Content */}
-                <Col md={6} xs={12} className="text-content">
+                <Col md={6} xs={12} className="text-content order-2 order-md-1">
                   <h3 className="property-name">{property.title}</h3>
                   <p className="property-description">{property.description}</p>
                   <p className="property-location">{property.location}</p>
@@ -88,7 +73,7 @@ const BuilderSection = ({ propertyType }) => {
                   </div>
                 </Col>
                 {/* Image */}
-                <Col md={6} xs={12} className="image-container">
+                <Col md={6} xs={12} className="image-container order-1 order-md-2">
                   <img
                     src={property.images[0]}
                     alt={property.title}

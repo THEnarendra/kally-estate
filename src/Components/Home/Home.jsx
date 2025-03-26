@@ -26,7 +26,7 @@ const Home = () => {
 
         <BuilderSection propertyType="Land" />
 
-        <Row className="align-items-center my-5" style={{ padding: "1.5rem", backgroundColor: "#f9f9f9" }}>
+        <Row className="align-items-center my-4" style={{ padding: "1.5rem", backgroundColor: "#f9f9f9" }}>
           <Col lg={6} md={12} className="text-center">
             <Swiper
               effect="cards"
