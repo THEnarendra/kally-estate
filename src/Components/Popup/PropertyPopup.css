@@ -1,0 +1,66 @@
+/* PropertyPopup.css */
+
+/* Overlay styling */
+.popup-overlay {
+  position: fixed;
+  height: 95vh;
+  top: 8%;
+  left: 0;
+  right: 0;
+  bottom: 20%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  pointer-events: none; /* Disable background interaction */
+}
+
+.popup-overlay > .popup-content {
+  position: relative;
+  pointer-events: auto; /* Enable interaction with the popup */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  overflow-y: auto;
+}
+
+/* Close button styling */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Image and content inside popup */
+.popup-image img {
+  max-height: 40vh;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.popup-details {
+  margin-top: 15px;
+}
+
+.contact-info {
+  margin-top: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.view-more-btn{
+  background: none;
+  border: none;
+  color: #4e00b7;
+}

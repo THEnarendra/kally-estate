@@ -1,0 +1,49 @@
+
+.yourSwiper{
+    height: 65vh;
+    width: 26vw;
+    margin-left: 22%;
+    cursor: pointer;
+}
+
+.swiperImg{
+    height: 65vh;
+    width: 26vw;
+    object-fit: cover;
+    
+}
+.luxury-interior-text-area h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.luxury-interior-text-area p{
+    font-size: 1.2rem;
+    color: #555;
+}
+@media screen and (max-width:997px) {
+    .yourSwiper{
+        padding: 2%;
+        height: 55vh;
+        width: 75vw;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .swiperImg{
+        height: 60vh;
+        width: 75vw;
+        object-fit: cover;
+        
+    }
+
+    .luxury-interior-text-area h1{
+        font-size: 2.5rem;
+    }
+
+    .luxury-interior-text-area p{
+        font-size: 1rem;
+        text-align: center;
+    }
+}

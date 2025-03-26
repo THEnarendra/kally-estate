@@ -1,0 +1,67 @@
+.featured-collections h1 {
+  font-size: 3rem;
+}
+.featured-collections h1 span {
+  font-size: 3rem;
+  color: #6200ea;
+}
+.para2 {
+  margin-top: -10px;
+  margin-bottom: -15px;
+  font-size: 1.4rem;
+}
+.collection-card {
+  padding: 20px 20px;
+}
+
+.slick-arrow {
+  z-index: 1000;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.slick-prev {
+  left: -40px;
+}
+.slick-next {
+  right: -40px;
+}
+.slick-arrow:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.slick-dots li button:before {
+  color: #000;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #000;
+}
+
+.collection-card .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.collection-card .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .featured-collections h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .featured-collections h1 span {
+    font-size: 2.2rem;
+    color: #6200ea;
+  }
+  .featured-collections p {
+    font-size: 1.2rem;
+  }
+}
